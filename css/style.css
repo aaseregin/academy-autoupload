@@ -153,7 +153,11 @@ body {
 }
 .about-site {
     padding-bottom: 60px;
-    color: #9900CC;
+    text-align: left;
+    font-style: 14px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 50px;
 }
 .film {
     padding-top: 80px;

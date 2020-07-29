@@ -44,10 +44,24 @@
         </header>
         <section class="film">
             <div class="container">
+                <div>
+                    <h1>
+                        О проекте
+                    </h1>
+                </div>
                 <div class="about-site">
-                    <h3>
-                        === This site was created by Andrey Seregin and upload by Jenkins after commit in github ===
-                    </h3>
+                    <p>
+                        Этот сайт создан Андреем Серегиным в программе Visual Studio Code. <br/>
+                        Система контроля версий - git, репозиторий хранится на <a href="https://github.com/aaseregin/academy-autoupload " target="_blank" title="репозиторий в GitHub">github</a>. <br/>                         
+                        В качестве хостинга используется виртуальная машина (ВМ), развернутая в яндекс.облаке. <br/>
+                        Доступ к ВМ осуществляется по SSH.<br/>
+                        Настроены автоматический выпуск и установка SSL-сертификата Let's Encrypt для доступа к сайту по
+                        https.<br/>
+                        Для загрузки и обновления компонентов сайта на ВМ, используется Jenkins, развернутый на
+                        отдельной ВМ в яндекс.облаке.<br/>
+                        Обновление происходит автоматически, после выполнения push в
+                        репозиторий.
+                    </p>
                 </div>
                 <div class="film-wrapper">
                     <div class="film-trailer">
